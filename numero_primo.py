@@ -23,12 +23,14 @@ def es_primo(numero_seleccionado):
 def run():
 ## -------------------------------------------------------
 ## ----- PROGRAMA QUE INVOCA A FUNCION DE NUM PRIMOS -----
+
     valor = int(input('Ingrese el numero : '))
     respuesta = es_primo(valor)
     if respuesta == True:
-        print('El numero ' + str(valor) + ' es un numero primo' )
+        print('El numero ' + str(valor) + ' es un numero primo y este comentario es adicional para probar git' )
     else:
         print('El numero ' + str(valor) + ' no es un numero primo' )
+        print('El numero no es primo y se vera este cambio en la consola de git bash')
 
 
 if __name__ == '__main__':
