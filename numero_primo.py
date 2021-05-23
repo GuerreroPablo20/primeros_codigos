@@ -2,6 +2,7 @@ def es_primo(numero_seleccionado):
 
 ## -------------------------------------------------------
 ## ----- FUNCION QUE DETERMINA SI ES UN NUMERO PRIMO -----
+## ----- AGREGUE ESTA LINEA PARA PROBAR EL PULL ----------
 
     vector = range(2,numero_seleccionado+1)
     longitud = len(vector)
